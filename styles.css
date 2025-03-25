@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.cabecalho{
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+#logo-gleimerson{
+    margin-right: 30%;
+    margin-left: 8.5%;
+}
+
+#logo-gustavo{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#logo-paulo{
+    margin-left: 30%;
+}
+
+.barra-nav{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+
+#gleimerson{
+    margin-right: 32%;
+    margin-left: 6.5%;
+    color: white;
+}
+
+#gustavo{
+    margin-right: 34.5%;
+    color: white;
+}
+
+#paulo{
+    color: white;
+}
+
+#divisoria-cabecalho{
+    background-color: white;
+    height: 1px;
+    margin-top: 10px;
+}
