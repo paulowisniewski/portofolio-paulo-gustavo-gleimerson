@@ -145,25 +145,30 @@ a:hover{
     color: #b1b1b1;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .sobre{
     display: flex;
     margin-top: 20px;
     width: 100%;
-    height: 500px;
+    height: 600px;
     flex-direction: row;
 }
 
 #imagem-sobre{
     animation: pulsate 1.5s infinite ease-in-out;
     display: flex;
-    height: 70%;
-    margin-top: 70px;
+    height: 60%;
+    margin-top: 120px;
 }
 
-h1{
+#titulo-sobre{
     margin-left: 100px;
     margin-top: 50px;
     color: white;
+    font-size: 34px;
 }
 
 #texto-sobre{
@@ -174,4 +179,85 @@ h1{
     text-indent: 30px;
     text-align: justify;
 }
+
+.hobbies-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+}
+
+#titulo-hobbies{
+    color: white;
+    font-size: 34px;
+    margin-left: 600px;
+    width: 16%;
+    height: 50px;
+    margin-top: -2px;
+}
+
+#texto1-hobbies{
+    margin-top: 55px;
+    margin-left: -800px;
+    width: 58%;
+    color: white;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#img1-hobbies{
+    animation: pulsate 1.5s infinite ease-in-out;
+    margin-left: 40px;
+    display: flex;
+    width: 35%;
+    height:220px;
+    margin-top: 75px;
+}
+
+.hobbies-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    margin-top: 35px;
+}
+
+#img2-hobbies{
+    animation: pulsate 1.5s infinite ease-in-out;
+    display: flex;
+    margin-left: 15px;
+    width: 35%;
+    height: 270px;
+}
+
+#texto2-hobbies{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 58%;
+    color: white;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#titulo-galeria{
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 34px;
+}
+
+.galeria{
+    animation: pulsate 1.5s infinite ease-in-out;
+    margin-top: -50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
 
