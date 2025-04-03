@@ -59,14 +59,15 @@ body{
     background-color: white;
     height: 1px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .fotos-rostos{
     width: 100%;
     height: 400px;
     display: flex;
-    margin-top: 60px;
+    margin-top: 40px;
+    animation: pulsate 1.5s infinite ease-in-out;
 }
 
 a{
@@ -75,7 +76,7 @@ a{
 }
 
 a:hover{
-    opacity: calc(70%);
+    opacity: calc(50%);
     cursor: pointer;
 }
 
@@ -86,11 +87,16 @@ a:hover{
     width: 100%;
     height: 60px;
     justify-content: center;
+    margin-top: 20px;
+}
+
+#logo-pagina-paulo{
+    animation: pulsate 1.5s infinite ease-in-out;
 }
 
 @keyframes pulsate {
     0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.1); opacity: 0.8; }
+    50% { transform: scale(1.015); opacity: 0.8; }
     100% { transform: scale(1); opacity: 1; }
 }
 
@@ -100,13 +106,72 @@ a:hover{
     color: white;
     margin-top: -1px;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 
+        -1px -1px 0 #b1b1b1,  
+        1px -1px 0 #b1b1b1,
+        -1px 1px 0 #b1b1b1,
+        1px 1px 0 #b1b1b1;
 }
 
-.barra-nav2{
-    background-color: black;
-    display: flex;
+#divisoria-cabe2{
+    background-color: white;
+    height: 1px;
     width: 100%;
-    height: 30px;
+}
+
+.barra-nav2 {
+    background-color: black;
+    padding: 15px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+.barra-nav2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.barra-nav2 ul li {
+    margin: 0 15px;
+}
+.barra-nav2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+.barra-nav2 ul li a:hover {
+    color: #b1b1b1;
+}
+
+.sobre{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+}
+
+#imagem-sobre{
+    animation: pulsate 1.5s infinite ease-in-out;
+    display: flex;
+    height: 70%;
+    margin-top: 70px;
+}
+
+h1{
+    margin-left: 100px;
+    margin-top: 50px;
     color: white;
 }
+
+#texto-sobre{
+    margin-top: 100px;
+    margin-left: -200px;
+    width: 60%;
+    color: white;
+    text-indent: 30px;
+    text-align: justify;
+}
+
