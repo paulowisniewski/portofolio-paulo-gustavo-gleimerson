@@ -34,24 +34,25 @@ body{
     align-items: center;
 }
 
-h4{
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 #gleimerson{
     margin-right: 31%;
     margin-left: 6.5%;
     color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #gustavo{
     margin-right: 34%;
     color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #paulo{
     color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #divisoria-cabe{
@@ -85,4 +86,27 @@ a:hover{
     width: 100%;
     height: 60px;
     justify-content: center;
+}
+
+@keyframes pulsate {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+#nome-pagina {
+    animation: pulsate 1.5s infinite ease-in-out;
+    text-align: center;
+    color: white;
+    margin-top: -1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barra-nav2{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    color: white;
 }
