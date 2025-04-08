@@ -58,13 +58,11 @@ body{
 #divisoria-cabe{
     background-color: white;
     height: 1px;
-    width: 100%;
+    width: 105%;
     margin-top: 15px;
 }
 
 .fotos-rostos{
-    width: 100%;
-    height: 400px;
     display: flex;
     margin-top: 40px;
     animation: pulsate 1.5s infinite ease-in-out;
